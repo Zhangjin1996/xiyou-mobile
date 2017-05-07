@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+  <div class="userId">
+      <input type="text" placeholder="请输入用户名" id="username">
+  </div>
+  <div class="userPwd">
+      <input type="password" placeholder="请输入密码" id="password">
+  </div>
+  <div class="userCode">
+      <div class="inputCode">
+          <img src="" id="codeImg" onclick="getCodeimg()">
+      </div>
+      <input type="text" id="vercode" placeholder="请输入验证码">
+  </div>
+   <button type="submit" class="signIn" onclick="signUp()">Sign In</button>
+   <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/login1.js"></script>
+</body>
+</html>
